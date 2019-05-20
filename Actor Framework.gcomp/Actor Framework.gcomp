@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SourceFile Checksum="89C7C622052720E18E9A8FE5C81F1A501774EAA02752C210151A63DF6ECB5DCC9CCC1DBF817F18FB1F55FD9A1039E0F4174E243AF6B4174760E3A90CCC6E44F6" Timestamp="1D50E7AE6D90088" xmlns="http://www.ni.com/PlatformFramework">
+	<SourceModelFeatureSet>
+		<ParsableNamespace AssemblyFileVersion="6.4.1.50844" FeatureSetName="GComponentFeatureSet" Name="http://www.ni.com/GComponent.xsd" OldestCompatibleVersion="6.1.0.1" Version="6.2.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="6.4.1.50844" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="6.2.0.49154" Version="6.2.0.49154" />
+		<ApplicationVersionInfo Build="6.4.1.50844" Name="LabVIEW NXG" Version="3.1.0" />
+	</SourceModelFeatureSet>
+	<ComponentDefinition DefaultConfigurationName="Configuration1" Id="264dfd92be3744aeb1d6e280f335b877" RootNamespaceId="ceb9bec463c447b7b9cde85b4127f8af" xmlns="http://www.ni.com/GComponent.xsd">
+		<Icon Id="411b07e892e425987491f1eabbad3fb" ListViewIconCrop="0 0 40 40" xmlns="http://www.ni.com/PlatformFramework">
+			<IconPanel Height="[float]40" Id="c523f413e13f45d38778e2be8577d488" Left="[float]0" MinHeight="[float]0" MinWidth="[float]0" PanelSizeMode="Resize" Top="[float]0" Width="[float]40">
+				<IconTemplate Height="[float]40" Id="5bcd6887294147b38cab08dcb9b28c24" Left="[float]0" TemplateName="[string]Blank" Top="[float]0" Width="[float]40" />
+			</IconPanel>
+		</Icon>
+		<CompilerSymbolTable Id="777bb30658a14e7da61a6e9b8ae50fe7" xmlns="http://www.ni.com/PlatformFramework" />
+		<ComponentConfiguration Id="27e62c4ab8c44c81ac5171fcf18fb675" Name="Configuration1">
+			<CompilerSymbolTable Id="7b79900f71e34e0f8b941ffbc739d4f3" xmlns="http://www.ni.com/PlatformFramework" />
+			<ComponentItemProperties AssociatedEnvoyId="d4ecf256d56049d09b88ad78aa764690" Exported="True" Id="d78f3222f2a14515a76fc33e73daf1cb" />
+			<ComponentItemProperties AssociatedEnvoyId="a70572fd52ee41baa65459a5f3d26b2d" Exported="True" Id="6ffe6659f43548be9047f44cf05fa601" />
+			<ComponentItemProperties AssociatedEnvoyId="b6d3910fc04542f4bdfd6842418199df" Exported="True" Id="2cff8e3d59754b21a53f067b87843576" />
+			<ComponentItemProperties AssociatedEnvoyId="8140ea6ccb2240d2aa06202990e74b2d" Exported="True" Id="21767e23d84242d28a685357bceda465" />
+			<ComponentItemProperties AssociatedEnvoyId="6888893cae374f269eb45d8e1f6c13f3" Exported="True" Id="1caec0bbc74845de816c4d3b3e17b9d7" />
+			<ComponentItemProperties AssociatedEnvoyId="3cae00f9f3254280b109be0b4d6b2d07" Exported="True" Id="92f6f0a683a7405dae0a6c734e6a5d3c" />
+			<ComponentItemProperties AssociatedEnvoyId="6ff7df776c164db583ce0965da5b426e" Exported="True" Id="f345bbce890c49d79f9c12a7058ed445" />
+			<ComponentItemProperties AssociatedEnvoyId="601788ad11774eafb38cbbb3af2c80c6" Exported="True" Id="b4172d1a777c4b7c8c1a67f8a357edf0" />
+			<ComponentItemProperties AssociatedEnvoyId="f87147b5359f40cdb3208155230dd004" Exported="True" Id="8649e371bb7249f29c9e5a3e5c956f57" />
+			<ComponentItemProperties AssociatedEnvoyId="5df848f7e794b938dc4e9bb046adc80" Exported="True" Id="5460b2f84dbd4b7f8d3ae6400016a50b" />
+			<ComponentItemProperties AssociatedEnvoyId="4f1ead3f456e4e88abca5397d91fe444" Exported="True" Id="761ba79574244a8ab3d4f07e5c4b39b1" />
+			<ComponentItemProperties AssociatedEnvoyId="e425478f1ff4427cb3c3fa4d1db52752" Exported="True" Id="af2e7b4b110b4dbcbda2daebddf88361" />
+		</ComponentConfiguration>
+	</ComponentDefinition>
+	<EnvoyManagerFile Id="8312b2df91ef45d8996c39419de6b672" xmlns="http://www.ni.com/PlatformFramework">
+		<ProjectSettings Id="1545445079ff484e921e40136f596132" ModelDefinitionType="ProjectSettings" Name="ZProjectSettings" />
+		<EmbeddedDefinitionReference Id="2ce437daa7f4a97b6078dfaea914fbb" ModelDefinitionType="{http://www.ni.com/GComponent.xsd}ComponentDefinitionEnvoyHierarchyRoot" Name="Global namespace">
+			<ComponentDefinitionEnvoyHierarchyRoot xmlns="http://www.ni.com/GComponent.xsd" />
+			<NameScopingEnvoy AutomaticallyResolveUp="True" Id="ceb9bec463c447b7b9cde85b4127f8af" Name="Actor Framework">
+				<NameScopingEnvoy AutomaticallyResolveUp="True" Id="aa73a9adcab64c128aded27a5d06972d" Name="Functions">
+					<SourceFileReference Id="d4ecf256d56049d09b88ad78aa764690" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Launch Root Actor.gvi" StoragePath="Functions\Launch Root Actor.gvi" />
+					<SourceFileReference Id="a70572fd52ee41baa65459a5f3d26b2d" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Launch Nested Actor.gvi" StoragePath="Functions\Launch Nested Actor.gvi" />
+					<SourceFileReference Id="b6d3910fc04542f4bdfd6842418199df" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Send Stop.gvi" StoragePath="Functions\Send Stop.gvi" />
+					<SourceFileReference Id="8140ea6ccb2240d2aa06202990e74b2d" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Self Enqueuer.gvi" StoragePath="Functions\Self Enqueuer.gvi" />
+					<SourceFileReference Id="6888893cae374f269eb45d8e1f6c13f3" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Caller Enqueuer.gvi" StoragePath="Functions\Caller Enqueuer.gvi" />
+					<SourceFileReference Id="e425478f1ff4427cb3c3fa4d1db52752" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Send Message.gvi" StoragePath="Functions\Send Message.gvi" />
+				</NameScopingEnvoy>
+				<NameScopingEnvoy AutomaticallyResolveUp="True" Id="9609d7f7d3b84730987a2b62b0dc37e4" Name="Primitives">
+					<SourceFileReference Bindings="EnvoyManager" Id="3cae00f9f3254280b109be0b4d6b2d07" ModelDefinitionType="NationalInstruments.MocCommon.Modeling.TypeDefinition" Name="Message.gtype" StoragePath="Primitives\Message.gtype\Message.gtype" />
+					<SourceFileReference Bindings="EnvoyManager" Id="6ff7df776c164db583ce0965da5b426e" ModelDefinitionType="NationalInstruments.MocCommon.Modeling.TypeDefinition" Name="Actor.gtype" StoragePath="Primitives\Actor.gtype\Actor.gtype" />
+					<SourceFileReference Id="601788ad11774eafb38cbbb3af2c80c6" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Actor Launcher.gvi" StoragePath="Primitives\Actor Launcher.gvi" />
+					<SourceFileReference Id="f87147b5359f40cdb3208155230dd004" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Actor Wrapper.gvi" StoragePath="Primitives\Actor Wrapper.gvi" />
+					<SourceFileReference Bindings="EnvoyManager" Id="5df848f7e794b938dc4e9bb046adc80" ModelDefinitionType="NationalInstruments.MocCommon.Modeling.TypeDefinition" Name="Stop.gtype" StoragePath="Primitives\Stop.gtype\Stop.gtype" />
+					<SourceFileReference Bindings="EnvoyManager" Id="4f1ead3f456e4e88abca5397d91fe444" ModelDefinitionType="NationalInstruments.MocCommon.Modeling.TypeDefinition" Name="Send Last Ack.gtype" StoragePath="Primitives\Send Last Ack.gtype\Send Last Ack.gtype" />
+				</NameScopingEnvoy>
+			</NameScopingEnvoy>
+		</EmbeddedDefinitionReference>
+		<NameScopingEnvoy Id="acb75bdeee1d41b68a8591e7bedf6470" ModelDefinitionType="{http://www.ni.com/GComponent.xsd}ComponentDefinitionContentReferenceRoot" Name="Actor Framework.gcomp" NameTracksFileName="True">
+			<ComponentDefinitionContentReferenceRoot xmlns="http://www.ni.com/GComponent.xsd" />
+			<ContentReference ContentIdentifier="27e62c4ab8c44c81ac5171fcf18fb675" Id="64b267055d5c437fb81552a05b2c4ba6" Name="Configuration1" OverridingModelDefinitionType="{http://www.ni.com/GComponent.xsd}ComponentConfiguration" />
+		</NameScopingEnvoy>
+	</EnvoyManagerFile>
+</SourceFile>
